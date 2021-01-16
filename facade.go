@@ -23,3 +23,13 @@ func AsIndexResponse(responseBody io.Reader) (*IndexResponse, error) {
 	}
 	return result, nil
 }
+
+func AsCountResult(responseBody io.Reader) (*CountResult, error) {
+	var result = new(CountResult)
+
+	err := decode(responseBody, result)
+	if err != nil {
+		return nil, err
+	}
+	return result, nil
+}
