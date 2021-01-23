@@ -1,4 +1,4 @@
-module gitlab.bcowtech.de/bcow-go/elasticsearch-esresponse/v7
+module gitlab.bcowtech.de/bcow-go/elasticsearch-esresponse
 
 go 1.14
 
