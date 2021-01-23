@@ -4,5 +4,3 @@ github.com/elastic/go-elasticsearch/v7 v7.10.0 h1:vYRwqgFM46ZUHFMRdvKr+y1WA4ehJO
 github.com/elastic/go-elasticsearch/v7 v7.10.0/go.mod h1:OJ4wdbtDNk5g503kvlHLyErCgQwwzmDtaFC4XyOxXA4=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
-gitlab.bcowtech.de/bcow-go/elasticsearch-esresponse v0.0.0-20210103130254-eb94f795f867 h1:RqNPQpbl8NOMGCmUsvbLhGIpKzBLxn+Nqr5wo8AwwY4=
-gitlab.bcowtech.de/bcow-go/elasticsearch-esresponse v0.0.0-20210103130254-eb94f795f867/go.mod h1:lvsDl0O+mk7OGDt2+rYRTSz+rM5MP/pEISj8lNBHYMc=
