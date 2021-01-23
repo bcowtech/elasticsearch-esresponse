@@ -33,3 +33,13 @@ func AsCountResult(responseBody io.Reader) (*CountResult, error) {
 	}
 	return result, nil
 }
+
+func AsGetResult(responseBody io.Reader) (*GetResult, error) {
+	var result = new(GetResult)
+
+	err := decode(responseBody, result)
+	if err != nil {
+		return nil, err
+	}
+	return result, nil
+}
