@@ -1,4 +1,4 @@
-package esresponse_test
+package esresponse
 
 import (
 	"bytes"
