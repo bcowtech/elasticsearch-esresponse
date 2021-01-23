@@ -50,11 +50,11 @@ func TestIndex(t *testing.T) {
 
 	expectedIndex := "gaasdemo-service-event-log-20201228-724001"
 	if result.Index != expectedIndex {
-		t.Errorf("assert 'IndexResponse.Index':: excepted '%v', got '%v'", expectedIndex, result.Index)
+		t.Errorf("assert 'IndexResponse.Index':: expected '%v', got '%v'", expectedIndex, result.Index)
 	}
 	expectedId := "192.168.56.54#0001"
 	if result.Id != expectedId {
-		t.Errorf("assert 'IndexResponse.Id':: excepted '%v', got '%v'", expectedId, result.Id)
+		t.Errorf("assert 'IndexResponse.Id':: expected '%v', got '%v'", expectedId, result.Id)
 	}
 	{
 		shards := result.Shards
