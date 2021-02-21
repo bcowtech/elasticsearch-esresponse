@@ -43,3 +43,13 @@ func AsGetResult(responseBody io.Reader) (*GetResult, error) {
 	}
 	return result, nil
 }
+
+func AsDeleteResponse(responseBody io.Reader) (*DeleteResponse, error) {
+	var result = new(DeleteResponse)
+
+	err := decode(responseBody, result)
+	if err != nil {
+		return nil, err
+	}
+	return result, nil
+}
