@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
+	esresponse "github.com/bcowtech/elasticsearch-esresponse"
 	"github.com/elastic/go-elasticsearch/esapi"
 	"github.com/elastic/go-elasticsearch/v7"
-	esresponse "gitlab.bcowtech.de/bcow-go/elasticsearch-esresponse"
 )
 
 func TestSearch(t *testing.T) {
